@@ -176,35 +176,6 @@ function handleScrollEffects() {
 handleScrollEffects();
 
 
-document.addEventListener("DOMContentLoaded", () => {
-  const counterElement = document.getElementById("visitor-count");
-  const closeButton = document.getElementById("close-counter");
-  const counterContainer = document.getElementById("site-counter");
-
-  // CountAPI namespace and key (make this unique to your site)
-  const NAMESPACE = "DhruvPortfolio";
-  const KEY = "pageviews";
-
-  // Fetch the visitor count from CountAPI
-  function updateVisitorCount() {
-    fetch(`https://api.countapi.xyz/hit/${NAMESPACE}/${KEY}`)
-      .then((response) => response.json())
-      .then((data) => {
-        console.log("Visitor count data:", data);
-        counterElement.textContent = data.value; // Update the counter display
-      })
-      .catch((error) => console.error("Error fetching visitor count:", error));
-  }
-
-  // Initialize the visitor counter
-  updateVisitorCount();
-
-  // Close the counter when the user clicks the close button
-  closeButton.addEventListener("click", () => {
-    counterContainer.classList.add("hidden");
-  });
-});
-
 
 document.addEventListener("DOMContentLoaded", () => {
   const hamburgerMenu = document.querySelector(".hamburger-menu");
