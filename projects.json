@@ -1,0 +1,92 @@
+[
+  {
+    "name": "VRP Optimization",
+    "description": "This repository offers a comprehensive solution for the Vehicle Routing Problem (VRP) using Python. It includes algorithms for various VRP variants, such as the Capacitated VRP and VRP with Time Windows, along with detailed documentation and practical examples to support implementation and customization.",
+    "projectURL": "https://DhruvSTrivedi.github.io/VRP-Optimization/",
+    "githubURL": "https://github.com/DhruvSTrivedi/VRP-Optimization"
+  },
+  {
+    "name": "Sum of Norms Clustering",
+    "description": "Sum-of-Norms Clustering implements a convex clustering algorithm that minimizes the sum of norms of differences between points, promoting structured sparsity. This repository includes optimized Python code, mathematical formulations, and examples to demonstrate its effectiveness in clustering high-dimensional data.",
+    "projectURL": "https://DhruvSTrivedi.github.io/Sum-of-Norms-Clustering/",
+    "githubURL": "https://github.com/DhruvSTrivedi/Sum-of-Norms-Clustering"
+  },
+  {
+    "name": "Electric Car Recommendation System",
+    "description": "A machine learning-based recommendation system for electric cars, leveraging user preferences and performance metrics to suggest optimal models. This repository includes data preprocessing, feature engineering, and model development, offering a scalable solution for personalized electric car recommendations.",
+    "projectURL": "https://DhruvSTrivedi.github.io/Electric-Car-Recommendation-System/",
+    "githubURL": "https://github.com/DhruvSTrivedi/Electric-Car-Recommendation-System"
+  },
+  {
+    "name": "Dairy Farming Analysis",
+    "description": "An analytical repository focused on dairy farming, featuring data-driven insights, statistical models, and visualizations. Designed for researchers and industry professionals, it provides tools to optimize production, improve herd management, and enhance operational efficiency through advanced analysis and reporting.",
+    "projectURL": "https://DhruvSTrivedi.github.io/Dairy-Farming-Analysis/",
+    "githubURL": "https://github.com/DhruvSTrivedi/Dairy-Farming-Analysis"
+  },
+  {
+    "name": "American Countries Economic Indicators",
+    "description": "A comprehensive analysis of economic indicators for American countries, featuring curated datasets, visualizations, and insights. This repository is designed for researchers and analysts exploring trends, comparisons, and correlations in economic performance across the Americas.",
+    "projectURL": "https://DhruvSTrivedi.github.io/American-Countries-Economic-Indicators/",
+    "githubURL": "https://github.com/DhruvSTrivedi/American-Countries-Economic-Indicators"
+  },
+  {
+    "name": "Electric Vehicle Analysis",
+    "description": "A data-driven analysis of electric vehicles, exploring performance metrics, market trends, and adoption patterns. This repository features curated datasets, visualizations, and insights, making it ideal for researchers, analysts, and enthusiasts studying the EV industry's growth and impact.",
+    "projectURL": "https://DhruvSTrivedi.github.io/Electric-Vehicle-Analysis/",
+    "githubURL": "https://github.com/DhruvSTrivedi/Electric-Vehicle-Analysis"
+  },
+  {
+    "name": "Smoking Trends Analysis",
+    "description": "An analytical repository examining smoking trends across demographics and regions. It includes curated datasets, visualizations, and statistical models to uncover patterns and insights. Designed for researchers and policymakers, it aids in understanding behaviors and supporting data-driven health initiatives.",
+    "projectURL": "https://DhruvSTrivedi.github.io/Smoking-Trends-Analysis/",
+    "githubURL": "https://github.com/DhruvSTrivedi/Smoking-Trends-Analysis"
+  },
+  {
+    "name": "Music Genre Trends Analysis",
+    "description": "A repository analyzing music genre trends over time using data-driven approaches. Includes datasets, visualizations, and insights into genre popularity and evolution. Ideal for researchers, music enthusiasts, and data analysts exploring the intersection of music and data science.",
+    "projectURL": "https://DhruvSTrivedi.github.io/Music-Genre-Trends-Analysis/",
+    "githubURL": "https://github.com/DhruvSTrivedi/Music-Genre-Trends-Analysis"
+  },
+  {
+    "name": "YouTube K means Clustering Analysis",
+    "description": "A repository applying K-means clustering to YouTube data for audience segmentation and trend analysis. Features data preprocessing, clustering algorithms, and visualizations to uncover patterns in viewer behavior and video performance. Ideal for data scientists and marketers exploring insights from YouTube analytics.",
+    "projectURL": "https://DhruvSTrivedi.github.io/YouTube-K-means-Clustering-Analysis/",
+    "githubURL": "https://github.com/DhruvSTrivedi/YouTube-K-means-Clustering-Analysis"
+  },
+  {
+    "name": "Real Estate Price Prediction",
+    "description": "A machine learning project for predicting real estate prices using advanced regression models. This repository includes data preprocessing, feature selection, model training, and evaluation, providing a robust framework for accurate property price estimation. Ideal for data scientists and real estate analysts.",
+    "projectURL": "https://DhruvSTrivedi.github.io/Real-Estate-Price-Prediction/",
+    "githubURL": "https://github.com/DhruvSTrivedi/Real-Estate-Price-Prediction"
+  },
+  {
+    "name": "Reliable File Transfer Protocol",
+    "description": "Implementation of a Reliable File Transfer Protocol simulating error detection, correction, and acknowledgment mechanisms. This repository demonstrates efficient file transmission techniques, ensuring data integrity and reliability, ideal for networking enthusiasts and students exploring protocol design and communication systems.",
+    "projectURL": "https://DhruvSTrivedi.github.io/Reliable-File-Transfer-Protocol/",
+    "githubURL": "https://github.com/DhruvSTrivedi/Reliable-File-Transfer-Protocol"
+  },
+  {
+    "name": "Socket Programming",
+    "description": "A repository showcasing socket programming concepts with practical implementations. Includes examples of client-server communication, network protocols, and real-time data exchange. Designed for developers and students exploring networking, inter-process communication, and distributed systems.",
+    "projectURL": "https://DhruvSTrivedi.github.io/Socket-Programming/",
+    "githubURL": "https://github.com/DhruvSTrivedi/Socket-Programming"
+  },
+  {
+    "name": "Metro Systems Analysis",
+    "description": "A comprehensive analysis of metro systems, focusing on operational efficiency, connectivity, and usage patterns. This repository includes datasets, visualizations, and insights, offering valuable resources for urban planners, researchers, and transportation analysts.",
+    "projectURL": "https://DhruvSTrivedi.github.io/Metro-Systems-Analysis/",
+    "githubURL": "https://github.com/DhruvSTrivedi/Metro-Systems-Analysis"
+  },
+  {
+    "name": "Hierarchical Clustering Analysis on Product Reviews",
+    "description": "A repository dedicated to hierarchical clustering analysis on product reviews. It includes preprocessed datasets, clustering algorithms, and insightful visualizations to uncover patterns and group customer feedback. Ideal for data scientists and researchers exploring unsupervised learning and sentiment analysis.",
+    "projectURL": "https://DhruvSTrivedi.github.io/Hierarchical-Clustering-Analysis-on-Product-Reviews/",
+    "githubURL": "https://github.com/DhruvSTrivedi/Hierarchical-Clustering-Analysis-on-Product-Reviews"
+  },
+  {
+    "name": "World University Rankings 2023 analysis",
+    "description": "Comprehensive analysis of the 2023 World University Rankings using Python. This repository explores data trends, visualizations, and insights to evaluate university performance globally. Ideal for data enthusiasts, researchers, and education analysts seeking in-depth analytical perspectives.",
+    "projectURL": "https://DhruvSTrivedi.github.io/World-University-Rankings-2023-analysis/",
+    "githubURL": "https://github.com/DhruvSTrivedi/World-University-Rankings-2023-analysis"
+  }
+]

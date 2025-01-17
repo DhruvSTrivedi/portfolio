@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+  <title>Dhruv Trivedi - Portfolio  🌍</title>
+  <meta name="description" content="Portfolio of Dhruv Trivedi, a Data Enthusiast exploring insights through numbers, algorithms, and visualizations." />
+</head>
+<body>
+
+  <header class="main-header">
+    <!-- Logo Section -->
+    <div class="main-header__logo-container">
+      <h4 class="main-header__logo-text">
+        <a href="#hero">Dhruv Trivedi</a>
+      </h4>
+    </div>
+  
+    <!-- Navigation Section -->
+    <nav class="main-header__navigation">
+      <!-- Hamburger Menu -->
+      <button class="hamburger-menu" aria-label="Toggle Navigation">
+        ☰
+      </button>
+  
+      <!-- Navigation Links -->
+      <ul class="main-header__navigation-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experiences">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <!-- Theme Toggle Button -->
+          <button id="theme-toggle" aria-label="Toggle Theme" title="Toggle Theme">
+            <i id="theme-icon" class="fa-solid fa-moon"></i>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  
+
+  <div id="site-counter" class="site-counter">
+    <span id="counter-text">You are visitor number: <strong id="visitor-count">0</strong></span>
+    <button id="close-counter" class="close-counter">X</button>
+  </div>
+  
+  <section id="home-hero" class="home-hero">
+    <div id="particles-js"></div> <!-- Add this div -->
+    <div class="home-hero__container">
+      <div class="home-hero__info">
+        <h1 class="heading-primary home-hero__heading-primary">
+          <span class="heading-primary__main" id="animated-text"></span>
+        </h1>
+      </div>
+    </div>
+  </section>
+  
+
+
+
+
+  <div class="progress-separator"></div>
+
+  
+  <section id="about" class="about main-section">
+    <div class="main-container">
+        <h2 class="heading-secondary">About Me 📊🚀</h2>
+        <p class="about-intro">Turning Numbers into Narratives, Data into Decisions</p>
+        <div class="about-content">
+            <h3>🧩 My Story: The Optimization of Dhruv</h3>
+            <p>
+                Born and raised in <strong>Gujarat, India</strong>, and moved to <strong>Waterloo, Canada</strong> in 2019, I’ve always been fascinated by <strong>patterns, structures, and the art of problem-solving</strong>.
+                My journey started with Arts & Business, pivoted through Mathematics & Combinatorics, and finally optimized itself into Information Technology Management with a Combinatorics & Optimization minor—talk about gradient descent in real life!
+            </p>
+            <p>
+                My academic career has been a dynamic time-series model, where every term added a new feature to my dataset. From machine learning algorithms to financial modeling, from supply chain analytics to network flow theory, I’ve trained myself to detect insights, predict trends, and automate decisions—all while keeping my bias low and variance optimal.
+            </p>
+            <h3>🌍 What Excites Me?</h3>
+            <ul>
+                <li>📊 <strong>Data Visualizations</strong> – Because insights should be as beautiful as they are impactful.</li>
+                <li>🤖 <strong>Machine Learning & AI</strong> – Constantly experimenting with Neural Networks, NLP, and Predictive Analytics.</li>
+                <li>💡 <strong>Optimization & Algorithms</strong> – Whether it’s a combinatorial problem or a business bottleneck, I love solving puzzles.</li>
+                <li>🌶️ <strong>Spicy Food Enthusiast</strong> – The hotter, the better! Just like my approach to challenges.</li>
+                <li>🎭 <strong>Movies & Theatre</strong> – A data guy who loves storytelling, both in dashboards & on stage!</li>
+            </ul>
+            <h3>🔍 What’s Next?</h3>
+            <p>
+                As I continue refining my machine learning skills, preparing for AWS certifications, and building data-driven solutions, my focus is on blending AI, optimization, and automation to make complex problems simpler, faster, and smarter.
+            </p>
+            <p>Let’s connect, collaborate, and turn data into actionable intelligence! 🚀📈</p>
+        </div>
+    </div>
+  </section>
+
+  <div class="progress-separator"></div>
+
+
+  <section id="skills" class="skills main-section">
+    <div class="main-container">
+        <h2 class="heading-secondary">🛠️ Skills & Technologies</h2>
+
+        <div class="skills-grid">
+            <div class="skills-category">
+                <h3>📊 Data Science & Analytics</h3>
+                <ul>
+                    <li><strong>Machine Learning:</strong> TensorFlow, PyTorch, Scikit-learn, XGBoost</li>
+                    <li><strong>Data Processing:</strong> Pandas, NumPy, SciPy, Statsmodels</li>
+                    <li><strong>Databases:</strong> SQL, MySQL, MongoDB, DB2</li>
+                    <li><strong>Statistical Analysis:</strong> Regression, Clustering, Bayesian Inference, A/B Testing</li>
+                    <li><strong>Data Visualization:</strong> Matplotlib, Seaborn, Plotly, D3.js</li>
+                </ul>
+            </div>
+
+            <div class="skills-category">
+                <h3>🖥️ Programming Languages</h3>
+                <ul>
+                    <li>Python 🐍 | R | SQL | MATLAB | JavaScript</li>
+                    <li>Stata | Racket | MIPS | SAS</li>
+                </ul>
+
+                <h3>⚙️ Development & Automation</h3>
+                <ul>
+                    <li><strong>APIs & Web Scraping:</strong> REST APIs, BeautifulSoup, Scrapy</li>
+                    <li><strong>Data Engineering:</strong> ETL Pipelines, Workflow Automation</li>
+                    <li><strong>Scripting:</strong> Bash, Shell Scripting, VBA</li>
+                </ul>
+            </div>
+
+            <div class="skills-category">
+                <h3>📡 Cloud & DevOps</h3>
+                <ul>
+                    <li><strong>Cloud Platforms:</strong> AWS (S3, Lambda, EC2, SageMaker)</li>
+                    <li><strong>Version Control:</strong> Git, GitHub, Docker</li>
+                </ul>
+
+                <h3>💡 Business Intelligence</h3>
+                <ul>
+                    <li>Power BI, Tableau, SPS Commerce</li>
+                    <li>Excel (VBA), Google Data Studio</li>
+                </ul>
+
+                <h3>📚 Optimization & Math Modeling</h3>
+                <ul>
+                    <li>Network Flow, Portfolio Optimization</li>
+                    <li>Linear Programming, Convex Optimization</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <div class="progress-separator"></div>
+
+  <section id="experiences" class="experiences main-section">
+    <div class="main-container">
+        <h2 class="heading-secondary">📈 Experience</h2>
+        <p class="experience-intro">From Data Pipelines to Business Impact – My Journey in Numbers & Models</p>
+
+        <div class="experience-timeline">
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h3>🔹 Agriculture, Food and Rural Affairs | Data Analyst Assistant</h3>
+                    <p class="experience-date">May 2024 – Aug 2024</p>
+                </div>
+                <p class="experience-title fade-in">Rewiring Agricultural Data for Smarter Decision-Making</p>
+                <ul>
+                    <li>🚀 Migrated SAS codebases to R, cutting $24,000 in operational costs.</li>
+                    <li>📊 Developed 4 interactive Power BI dashboards, dynamically adjusting to yearly data.</li>
+                    <li>⚡ Automated statistical workflows, reducing manual report prep by 40%.</li>
+                    <li>🌾 Led agricultural forecasting, aiding policymakers in funding decisions.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h3>🔹 UCook | Data Analyst Intern</h3>
+                    <p class="experience-date">May 2022 – Jan 2023</p>
+                </div>
+                <p class="experience-title fade-in">Where SQL Met Supply Chain & Changed the Recipe for Success</p>
+                <ul>
+                    <li>🔍 Analyzed millions of sales records with SQL & Microsoft Dynamics, optimizing expansion strategies.</li>
+                    <li>💰 Designed dynamic pricing models, eliminating guesswork in pricing decisions.</li>
+                    <li>📦 Optimized supply chain logistics, reducing delivery times & transportation costs.</li>
+                    <li>📊 Integrated JET Reports with Power BI, enabling real-time inventory tracking.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h3>🔹 Girishay Agri | Business Analyst</h3>
+                    <p class="experience-date">Nov 2021 – Apr 2022</p>
+                </div>
+                <p class="experience-title fade-in">Turning Raw Data into Market-Shaping Insights for Agri-Tech</p>
+                <ul>
+                    <li>📦 Identified supply chain bottlenecks, reducing overstock waste by 35%.</li>
+                    <li>🌱 Conducted agricultural market analysis, leading to a 2.5% market share increase.</li>
+                    <li>📊 Built seasonal crop demand models, making farming more predictable.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h3>🔹 Western Bio | Operations Analyst</h3>
+                    <p class="experience-date">Mar 2021 – Sep 2021</p>
+                </div>
+                <p class="experience-title fade-in">Data Science Meets Agri-Business – Modeling the Future of Crop Markets</p>
+                <ul>
+                    <li>🌾 Developed crop forecasting models using Python & SQL, enabling data-driven planting decisions.</li>
+                    <li>📈 Automated KPI dashboards in Power BI & Tableau, improving efficiency by 12%.</li>
+                    <li>📊 Designed time-series forecasting models for yield prediction.</li>
+                    <li>⏳ Automated report generation, reducing a 2-hour weekly task to 5 minutes.</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h3>🔹 Nityam Dairy | Co-Founder</h3>
+                    <p class="experience-date">Mar 2021 – Dec 2021</p>
+                </div>
+                <p class="experience-title fade-in">Built a D2C Dairy Business with Data, Analytics & Quality at the Core</p>
+                <ul>
+                    <li>🚚 Designed an optimized delivery model, ensuring fresher, faster, and cost-effective dairy supply.</li>
+                    <li>📊 Created market analysis dashboards using Excel VBA & Power BI.</li>
+                    <li>💡 Implemented data-backed quality control, ensuring consistency for 150+ daily customers.</li>
+                    <li>📦 Built a delivery route optimization model, reducing fuel costs & travel time.</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+  </section>
+
+  <div class="progress-separator"></div>
+  
+  <section id="projects" class="projects main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary">🚀 Projects</h2>
+      <p class="projects-intro">A collection of my key projects, dynamically updated from GitHub.</p>
+  
+      <!-- Project Section Container -->
+      <div class="project-section">
+        <!-- Dropdown Navigation -->
+        <div id="project-dropdown" class="project-dropdown">
+          <label for="project-select">Select a Project:</label>
+          <select id="project-select" class="project-select">
+            <!-- Project options dynamically populated -->
+          </select>
+        </div>
+  
+        <!-- Carousel Container -->
+        <div class="carousel">
+          <div class="carousel-inner" id="carousel-slides">
+            <!-- Slides dynamically added via script.js -->
+          </div>
+          <!-- Navigation Arrows -->
+          <button class="carousel-control prev" id="prev-btn">&#10094;</button>
+          <button class="carousel-control next" id="next-btn">&#10095;</button>
+        </div>
+      </div>
+  
+      <!-- Slide Number Indicator -->
+      <div id="slide-indicator" class="slide-indicator">1/10</div>
+    </div>
+  </section>
+  
+  <div class="progress-separator"></div>
+  <section id="certifications" class="certifications main-section">
+    <div class="main-container">
+      <h2 class="heading-secondary">📜 Certifications</h2>
+      <p class="certifications-intro">
+        A curated collection of certifications showcasing my skills and expertise.
+      </p>
+      <div class="certifications-list">
+        <div class="certification-item">
+          <a href="https://www.credly.com/badges/aeb33266-902e-45e0-ba41-d1f4736e7e60" target="_blank">
+            <strong>AWS Certified Cloud Practitioner</strong>
+          </a>
+        </div>
+        <div class="certification-item">
+          <a href="https://www.udemy.com/certificate/UC-5a79a9a9-f818-4394-9e23-17883bb50c3d/" target="_blank">
+            <strong>The Data Science Course: Complete Data Science Bootcamp 2024</strong>
+          </a>
+        </div>
+        <div class="certification-item">
+          <a href="https://www.udemy.com/certificate/UC-66bc0dee-6b76-4f49-843f-e90281d3f331/" target="_blank">
+            <strong>Tableau 2024 A-Z: Hands-On Tableau Training for Data Science</strong>
+          </a>
+        </div>
+        <div class="certification-item">
+          <a href="https://www.udemy.com/certificate/UC-0bbd5e20-50c8-4022-9d67-e262c6ead1a9/" target="_blank">
+            <strong>Machine Learning A-Z: AI, Python & R</strong>
+          </a>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+  
+
+  <div class="progress-separator"></div>
+
+  <section id="contact" class="contact main-section">
+    <div class="main-container">
+        <h2 class="heading-secondary">
+            <i class="fa-solid fa-paper-plane"></i> Contact Me
+        </h2>
+        <p class="contact-intro">Connect with me through these platforms:</p>
+        <div class="contact-grid">
+            <a href="mailto:d5trived@uwaterloo.ca" class="contact-item">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+            <a href="https://github.com/DhruvSTrivedi" target="_blank" class="contact-item">
+                <i class="fa-brands fa-github"></i>
+                <span>GitHub</span>
+            </a>
+            <a href="https://www.linkedin.com/in/dhruvtrivedi75/" target="_blank" class="contact-item">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+        </div>
+    </div>
+  </section>
+
+
+
+  <div class="progress-separator"></div>
+
+  <footer class="main-footer">
+    <div class="main-container">
+        <p>
+            &copy; <script>document.write(new Date().getFullYear())</script> Dhruv Trivedi. All rights reserved.
+        </p>
+        <p>
+            <span class="made-with-love">
+                Made with <i class="fa-solid fa-heart"></i> by Dhruv
+            </span>
+        </p>
+    </div>
+  </footer>
+
+
+  <script src="script.js" defer></script>
+  <script src="testScript.js" defer></script>
+
+
+</body>
+</html>

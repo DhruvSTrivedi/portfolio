@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume - Dhruv Trivedi</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="main-header">
+        <div class="main-header__logo-container">
+            <h4 class="main-header__logo-text">
+                <a href="index.html">Dhruv Trivedi</a>
+            </h4>
+        </div>
+        <nav class="main-header__navigation">
+            <ul class="main-header__navigation-links">
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#skills">Skills</a></li>
+                <li><a href="index.html#experiences">Experience</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="index.html#certifications">Certifications</a></li>
+                <li><a href="resume.html" class="active">Resume</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="resume-section">
+        <div class="main-container">
+            <h1 class="heading-secondary">📄 My Resume</h1>
+            <iframe 
+                src="Assets/resume.pdf" 
+                class="resume-viewer" 
+                title="Resume Viewer"
+                width="100%" 
+                height="600px" 
+                frameborder="0"></iframe>
+            <div class="resume-actions">
+                <a href="Assets/resume.pdf" download="Dhruv_Trivedi_Resume.pdf" class="btn download-btn">Download Resume</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="main-container">
+            <p>&copy; <script>document.write(new Date().getFullYear())</script> Dhruv Trivedi. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
