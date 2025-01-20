@@ -350,3 +350,5 @@ document.addEventListener('DOMContentLoaded', () => {
   const savedTheme = localStorage.getItem('theme') || 'light'; // Default to light theme
   applyTheme(savedTheme);
 });
+
+
